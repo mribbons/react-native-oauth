@@ -13,8 +13,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 16
@@ -38,6 +37,7 @@ allprojects {
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
+        google()
     }
 }
 // END
@@ -47,4 +47,6 @@ dependencies {
     compile 'com.github.scribejava:scribejava-apis:3.4.1'
     compile 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
     compile 'com.google.code.gson:gson:+'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.annotation:annotation:1.0.2'
 }

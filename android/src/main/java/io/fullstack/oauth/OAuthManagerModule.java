@@ -3,7 +3,7 @@ package io.fullstack.oauth;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.google.gson.Gson;

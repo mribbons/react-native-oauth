@@ -4,7 +4,7 @@ import android.util.Log;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.List;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import java.net.URL;
 import java.net.MalformedURLException;
 import android.text.TextUtils;
